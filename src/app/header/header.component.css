@@ -1,0 +1,34 @@
+.headerImages {
+    height:24px;
+}
+
+.headerText{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.headerDiv{
+    margin-top:2%;
+    margin-left:2%;
+    margin-right:2%;
+    float:left;
+}
+
+.textLogo{
+    padding-top:4%;
+    padding-bottom:2%;
+    padding-right:1%;
+    padding-left:1%;
+    margin-left:10%;
+    margin-right:10%;
+    float:left;
+    background-color:rgb(15,119,255);
+    color:white;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+

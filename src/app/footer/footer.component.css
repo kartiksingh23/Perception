@@ -1,0 +1,22 @@
+.footerImages {
+    height:24px;
+}
+
+.footerText{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.footerDiv{
+    margin-top:2%;
+}
+
+.footer{
+    background-color:white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
