@@ -31,4 +31,17 @@
     /* font-weight: 600; */
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+.span{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color:none;
+}
+.row{
+    margin:0;
+}
+.noPadding{
+    padding:0;
+}
 

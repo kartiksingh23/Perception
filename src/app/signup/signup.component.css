@@ -1,7 +1,14 @@
+.row{
+    margin:0;
+}
+
+span{
+    cursor:pointer;
+}
 div{
     font-size:12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color:grey;
+    color:black;
 }
 
 .form-group > .div{
@@ -69,5 +76,10 @@ label{
     border:none;
     opacity: .8;
     
+}
+
+.img-responsive{
+    height:120vh;
+    width:100%;
 }
 

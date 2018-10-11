@@ -1,19 +1,32 @@
+.row{
+    margin:0;
+    padding:0;
+}
 
+span{
+    cursor:pointer;
+}
 .noPadding{
     padding:0;
 }
 
 .content{
-    padding-left:10%;
+    padding-left:7%;
     margin-top:40%;
+    padding-bottom:15%;
     font-size:38px;
-    width:90%;
+    /* width:90%; */
 }
 
 .formSize{
     margin-top:5%;
+    margin-bottom:50vh;
     margin-left:10%;
-    width:78%;
+    width:95%;
+}
+
+.items{
+    align-content: center;
 }
 
 .form-control{
@@ -37,3 +50,33 @@
     background-color:rgb(15,119,255);
     color:white;
 }
+
+.img-responsive{
+    height:120vh;
+    width:100%;
+}
+
+.pills{
+    margin-top:8%;
+    font-size: 12px;
+}
+
+a{
+    background-color:rgb(253,252,250);
+    color:grey;
+}
+
+li{
+    margin-right:.7%;
+}
+
+.nav-pills>li>a {
+    border-radius: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:rgb(205,209,214);
+}
+
+input{
+    caret-color: rgb(15,119,255);
+  }
+

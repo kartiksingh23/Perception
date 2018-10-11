@@ -1,4 +1,7 @@
 .background{
-    height:100%;
     background-color: rgb(250,247,243);
+}
+
+.row{
+    margin:0;
 }
