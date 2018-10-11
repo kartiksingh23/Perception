@@ -1,0 +1,39 @@
+
+.noPadding{
+    padding:0;
+}
+
+.content{
+    padding-left:10%;
+    margin-top:40%;
+    font-size:38px;
+    width:90%;
+}
+
+.formSize{
+    margin-top:5%;
+    margin-left:10%;
+    width:78%;
+}
+
+.form-control{
+    font-size: 14px;
+    border:0;
+    box-shadow: none;
+    outline:none;
+}
+
+.formFrontColor{
+    background-color:white;
+    border:0;
+}
+
+.formMidColor{
+    background-color:white;
+    border:0;
+}
+
+.formEndColor{
+    background-color:rgb(15,119,255);
+    color:white;
+}
