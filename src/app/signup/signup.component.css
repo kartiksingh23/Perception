@@ -10,9 +10,8 @@ div{
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color:black;
 }
-
-.form-group > .div{
-    color:rgb(233,223,155);
+.invalid-feedback > div{
+    color:grey
 }
 
 
@@ -28,6 +27,7 @@ label{
     margin-top:30%;
     font-size:38px;
     width:90%;
+    height:100vh;
 }
 
 .formSize{
@@ -43,6 +43,12 @@ label{
     outline:none;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+input{
+    caret-color: rgb(15,119,255);
+  }
+
+
 
 .formFrontColor{
     background-color:white;

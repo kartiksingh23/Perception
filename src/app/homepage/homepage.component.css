@@ -24,6 +24,11 @@ span{
     margin-left:10%;
     width:95%;
 }
+@media screen and (max-width: 800px) {
+   .formSize{
+     margin-left:2%;
+    }
+  }
 
 .items{
     align-content: center;
