@@ -1,11 +1,22 @@
+.form-group >div{
+    color:rgb(233,223,155);
+}
+div{
+    font-size:12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:grey;
+}
 
+label{
+    font-size: 16px;
+}
 .noPadding{
     padding:0;
 }
 
 .content{
     padding-left:10%;
-    margin-top:40%;
+    margin-top:30%;
     font-size:38px;
     width:90%;
 }
@@ -21,6 +32,7 @@
     border:0;
     box-shadow: none;
     outline:none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .formFrontColor{
@@ -37,3 +49,23 @@
     background-color:rgb(15,119,255);
     color:white;
 }
+
+.designBox{
+    background-color: none;
+}
+
+.btn-primary{
+    background-color:rgb(233,223,155);
+    outline:none;
+    border:none;
+    opacity: .8;
+}
+
+.btn-primary:focus{
+    background-color:rgb(233,223,155);
+    outline:none;
+    border:none;
+    opacity: .8;
+    
+}
+
