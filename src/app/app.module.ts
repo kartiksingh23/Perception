@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { SignupComponent } from './signup/signup.component';
 
 const appRoutes: Routes = [
+  { path: '', component: HomepageComponent },
   { path: 'home', component: HomepageComponent },
   { path: 'signup', component: SignupComponent },
 ];

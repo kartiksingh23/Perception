@@ -21,7 +21,7 @@ export class SignupComponent implements OnInit {
           dob: ['', [Validators.required]],
           email: ['', [Validators.required, Validators.email]],
           password: ['', [Validators.required, Validators.minLength(6)]],
-          contactNumber: ['', [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('[0-9]{0,10}')]]
+          contactNumber: ['', [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('[0-9]{0,1000}')]]
       });
   }
 
