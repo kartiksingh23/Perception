@@ -10,29 +10,33 @@ export class SignupComponent implements OnInit {
 
   registerForm: FormGroup;
   submitted = false;
+  date = new Date();
 
   constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
       this.registerForm = this.formBuilder.group({
-          firstName: ['', Validators.required],
-          lastName: ['', Validators.required],
+          userName: ['', Validators.required],
+          gender: ['', Validators.required],
+          dob: ['', [Validators.required]],
           email: ['', [Validators.required, Validators.email]],
-          password: ['', [Validators.required, Validators.minLength(6)]]
+          password: ['', [Validators.required, Validators.minLength(6)]],
+          contactNumber: ['', [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern("\d*")]]
       });
   }
 
-  // convenience getter for easy access to form fields
+  // getter to access form fields
   get f() { return this.registerForm.controls; }
 
   onSubmit() {
+    console.log(this.f.contactNumber);
       this.submitted = true;
-
-      // stop here if form is invalid
+      // stop here if form is invalid and console unsuccessful message
       if (this.registerForm.invalid) {
+          console.log("Unsuccessful");
           return;
       }
-
-      alert('SUCCESS!! :-)')
+      
+      console.table(this.registerForm.value);
   }
 }

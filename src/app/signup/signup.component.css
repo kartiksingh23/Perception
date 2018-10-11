@@ -1,11 +1,13 @@
-.form-group >div{
-    color:rgb(233,223,155);
-}
 div{
     font-size:12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color:grey;
 }
+
+.form-group > .div{
+    color:rgb(233,223,155);
+}
+
 
 label{
     font-size: 16px;
