@@ -49,16 +49,19 @@
                         <div class="form-group">
                             <label>Gender</label><br>
                             <label class="radio-inline">
-                                <input type="radio" formControlName="gender" checked   value="Male">
+                                <input type="radio" formControlName="gender" [checked]   value="Male">
                                 Male
                               </label>
                               <label class="radio-inline">
                                 <input type="radio" formControlName="gender"  value="Female">
                                 Female
                               </label>
+                              <div *ngIf="submitted && f.gender.errors" class="invalid-feedback">
+                                  <div *ngIf="f.gender.errors.required">Gender is required</div>
+                              </div>`
                         </div><br>
                         <div class="form-group">
-                            <button [disabled]="loading" class="btn btn-primary">SignUp</button><br><br><br><br>
+                            <button [disabled]="loading" class="btn btn-primary">SignUp</button><br><br><br><br><br>
                         </div>
                     </form>
                 </div>
